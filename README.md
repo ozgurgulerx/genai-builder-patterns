@@ -66,6 +66,89 @@ repo-root/
 
 ---
 
+# 🧩 AI Builder Patterns Library
+
+> ### Patterns are grouped by conceptual similarity. Each pattern includes a description and a dedicated folder for use-cases and implementations.
+
+---
+
+## 🔗 **Representation & Fusion Patterns**
+
+| Pattern                   | Description                                                                                       |
+|--------------------------|---------------------------------------------------------------------------------------------------|
+| 🧬 **Embedding Joins**   | Combine multiple embedding spaces (e.g., text + images) to enrich retrieval, search, or reasoning. |
+| 📊 **Bayesian Fusion**   | Fuse predictions or beliefs from multiple models/sources using Bayesian inference principles.      |
+
+<details>
+<summary>📁 <b>Folder Structure Example</b></summary>
+
+```
+patterns/
+├── embedding-joins/
+│   ├── README.md      # Pattern description
+│   └── use-cases/
+│       └── ...
+├── bayesian-fusion/
+│   ├── README.md
+│   └── use-cases/
+│       └── ...
+```
+</details>
+
+---
+
+## 🌐 **Cross-Modal & Multi-Modal Patterns**
+
+| Pattern                           | Description                                                                                             |
+|------------------------------------|---------------------------------------------------------------------------------------------------------|
+| 🔄 **Cross-Modal Transformers**    | Models that learn relationships and enable reasoning across different modalities (e.g., text ↔️ image).  |
+| 🖼️ **Multi-Modal Embeddings**      | Unified embeddings capturing information from multiple data types (text, image, audio, etc).             |
+
+<details>
+<summary>📁 <b>Folder Structure Example</b></summary>
+
+```
+patterns/
+├── cross-modal-transformers/
+│   ├── README.md
+│   └── use-cases/
+│       └── ...
+├── multi-modal-embeddings/
+│   ├── README.md
+│   └── use-cases/
+│       └── ...
+```
+</details>
+
+---
+
+## 🧠 **Knowledge & Context Patterns**
+
+| Pattern                             | Description                                                                                         |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------|
+| 🕸️ **Contextual Knowledge Graphs**   | Dynamic graphs that encode, update, and reason over contextual relationships between entities/data.  |
+
+<details>
+<summary>📁 <b>Folder Structure Example</b></summary>
+
+```
+patterns/
+├── contextual-knowledge-graphs/
+│   ├── README.md
+│   └── use-cases/
+│       └── ...
+```
+</details>
+
+---
+
+> ⚡️ **For every pattern:**
+> - Each has its own folder in `patterns/`
+> - Each folder contains a detailed `README.md` and a `use-cases/` directory for practical implementations
+> - Contributions and new use-cases are welcome!
+
+---
+
 <p align="center">
   <img src="https://img.shields.io/badge/Let%E2%80%99s%20build%20the%20future%20of%20AI%2C%20one%20pattern%20at%20a%20time!-success?style=for-the-badge&logo=github" alt="Let's build the future of AI, one pattern at a time!" />
 </p>
