@@ -144,8 +144,29 @@ patterns/
 
 > ⚡️ **For every pattern:**
 > - Each has its own folder in `patterns/`
-> - Each folder contains a detailed `README.md` and a `use-cases/` directory for practical implementations
+> - Each folder contains a concise `README.md` and a `use-cases/` directory for practical implementations
 > - Contributions and new use-cases are welcome!
+
+---
+
+### 🗂️ Recommended Folder Layout
+
+```
+patterns/
+  <pattern-name>/
+    README.md           # Pattern overview & theory
+    use-cases/
+      <use-case-name>/
+        src/            # Source code & notebooks
+        assets/         # Datasets, images, models, configs, etc.
+```
+
+This lightweight layout keeps things tidy:
+- **`src/`** holds all runnable code for the use-case.
+- **`assets/`** stores supporting files (datasets, images, checkpoints, visualization artifacts, etc.).
+
+Feel free to adapt the structure if your use-case needs extra folders (e.g., `tests/`, `docs/`).
+
 
 ---
 
